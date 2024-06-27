@@ -322,7 +322,18 @@ form button {
     transform: translateY(45rem) rotateZ(45deg);
     opacity: 0;
 }
-
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+    text-align: center;
+    animation: slideInFromBottom 1s ease;
+}
+footer .copyright {
+    color: white
+}
 /* Responsive design */
 @media only screen and (max-width: 1000px) {
     .flexrow-container {
